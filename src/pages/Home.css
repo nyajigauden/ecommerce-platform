@@ -1,0 +1,46 @@
+/* src/pages/Home.css */
+.home {
+  text-align: center; /* Center-align all text within the home container */
+  padding: 2rem; /* Add padding around the content */
+  background-color: #f9f9f9; /* Light background color */
+  min-height: 100vh; /* Full viewport height */
+}
+
+.home-header {
+  margin-bottom: 2rem; /* Space below the header */
+}
+
+.home-header h1 {
+  font-size: 2.5rem; /* Larger font size for the main heading */
+  margin-bottom: 0.5rem; /* Space below the heading */
+  color: #333; /* Dark color for the heading */
+}
+
+.home-header p {
+  font-size: 1.25rem; /* Slightly smaller font size for the subheading */
+  color: #555; /* Darker color for better readability */
+  margin-bottom: 2rem; /* Space below the paragraph */
+}
+
+.home-nav {
+  display: flex;
+  flex-wrap: wrap; /* Wrap links to the next line if they don't fit */
+  justify-content: center; /* Center-align the links horizontally */
+  gap: 1.5rem; /* Space between each link */
+}
+
+.home-nav a {
+  text-decoration: none; /* Remove underline from links */
+  font-size: 1.125rem; /* Font size for the links */
+  color: #007bff; /* Color of the links */
+  padding: 0.75rem 1.5rem; /* Padding around the links */
+  border-radius: 0.25rem; /* Rounded corners for the links */
+  background-color: #fff; /* Background color for the links */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: background-color 0.2s, color 0.2s; /* Smooth transition for hover effects */
+}
+
+.home-nav a:hover {
+  background-color: #f0f0f0; /* Light background color on hover */
+  color: #0056b3; /* Darker color on hover */
+}

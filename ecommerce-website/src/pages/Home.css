@@ -1,0 +1,45 @@
+/* src/pages/Home.css */
+.home-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .home-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .home-header h1 {
+    font-size: 2.5em;
+  }
+  
+  .home-header p {
+    font-size: 1.2em;
+  }
+  
+  .home-links {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .home-link {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+  }
+  
+  .home-link:hover {
+    background-color: #0056b3;
+  }
+  
+  .home-components {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  

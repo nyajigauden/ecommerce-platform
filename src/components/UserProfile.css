@@ -1,0 +1,54 @@
+.user-profile-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.user-profile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logout-button {
+  padding: 10px 15px;
+  background-color: #ff5c5c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.user-profile {
+  margin-bottom: 40px;
+}
+
+.profile-details {
+  margin-bottom: 20px;
+}
+
+.user-profile-product {
+  margin-top: 20px;
+}
+
+.user-profile-nav {
+  margin-bottom: 20px;
+}
+
+.user-profile-nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.user-profile-nav li {
+  margin-bottom: 10px;
+}
+
+.user-profile-footer {
+  margin-top: 40px;
+  padding: 20px;
+  text-align: center;
+  background-color: #f8f9fa;
+  border-top: 1px solid #dee2e6;
+}

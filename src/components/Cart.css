@@ -1,0 +1,35 @@
+.cart {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.cart-item {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.cart-item p {
+  margin: 5px 0;
+}
+
+.cart-summary {
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 1.2em;
+  text-align: right;
+}
+
+.cart-summary form {
+  margin-top: 10px;
+}

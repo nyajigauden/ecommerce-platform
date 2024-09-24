@@ -1,0 +1,8 @@
+/* src/components/CategoryList.css */
+.category-list {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  .category-list h2 {
+    color: #333;
+  }
